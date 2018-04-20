@@ -1,0 +1,12 @@
+{
+  "name": "@palmerhq/tsconfig",
+  "version": "1.0.0",
+  "description": "The Palmer Group shared base tsconfig.",
+  "main": "tsconfig.json",
+  "repository": "git+https://github.com/palmerhq/typescript.git",
+  "bugs": {
+    "url": "https://github.com/palmerhq/typescript/issues"
+  },
+  "homepage": "https://github.com/palmerhq/typescript#readme",
+  "license": "MIT"
+}
