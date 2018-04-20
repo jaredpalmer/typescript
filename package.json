@@ -1,0 +1,33 @@
+{
+  "name": "@palmerhq/typescript",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TypeScript and React, BFFAEAEAE.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "precommit": "lint-staged"
+  },
+  "repository": "git+https://github.com/palmerhq/typescript.git",
+  "keywords": ["TypeScript", "React", "tsconfig", "tslint", "styleguide"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/palmerhq/typescript/issues"
+  },
+  "homepage": "https://github.com/palmerhq/typescript#readme",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lerna": "^2.10.2",
+    "lint-staged": "^7.0.4",
+    "prettier": "^1.12.1"
+  },
+  "lint-staged": {
+    "*.{js,json,md}": ["prettier --write", "git add"]
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "semi": true,
+    "printWidth": 120
+  }
+}

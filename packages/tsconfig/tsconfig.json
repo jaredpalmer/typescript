@@ -1,19 +1,19 @@
 {
   "compilerOptions": {
-    "allowUnreachableCode": false,
-    "noFallthroughCasesInSwitch": true,
     "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
     "downlevelIteration": true,
     "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
-    "sourceMap": true,
-    "strictNullChecks": true,
-    "strict": true,
     "pretty": true,
-    "jsx": "react",
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true
   }
 }

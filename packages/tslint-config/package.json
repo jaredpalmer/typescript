@@ -1,0 +1,12 @@
+{
+  "name": "@palmerhq/tslint-config",
+  "version": "1.0.0",
+  "description": "The Palmer Group shared base tslint config.",
+  "main": "index.js",
+  "repository": "git+https://github.com/palmerhq/typescript.git",
+  "bugs": {
+    "url": "https://github.com/palmerhq/typescript/issues"
+  },
+  "homepage": "https://github.com/palmerhq/typescript#readme",
+  "license": "MIT"
+}
