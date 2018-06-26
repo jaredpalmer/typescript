@@ -1,6 +1,6 @@
 {
   "name": "tsconfig-palmerhq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Palmer Group shared base tsconfig.",
   "main": "tsconfig.json",
   "author": "Jared Palmer <jared@palmer.net>",

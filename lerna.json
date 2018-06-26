@@ -1,6 +1,9 @@
 {
   "lerna": "2.8.0",
-  "packages": ["tsconfig-palmerhq", "tslint-config-palmerhq"],
+  "packages": [
+    "tsconfig-palmerhq",
+    "tslint-config-palmerhq"
+  ],
   "npmClient": "yarn",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
