@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The Palmer Group shared base tsconfig.",
   "main": "tsconfig.json",
+  "author": "Jared Palmer <jared@palmer.net>",
   "repository": "git+https://github.com/palmerhq/typescript.git",
   "bugs": {
     "url": "https://github.com/palmerhq/typescript/issues"
