@@ -1,5 +1,5 @@
 {
-  "name": "@palmerhq/tsconfig",
+  "name": "tsconfig-palmerhq",
   "version": "1.0.0",
   "description": "The Palmer Group shared base tsconfig.",
   "main": "tsconfig.json",

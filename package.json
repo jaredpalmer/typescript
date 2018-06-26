@@ -9,7 +9,7 @@
     "precommit": "lint-staged"
   },
   "repository": "git+https://github.com/palmerhq/typescript.git",
-  "keywords": ["TypeScript", "React", "tsconfig", "tslint", "styleguide"],
+  "keywords": ["typedcript", "react", "tsconfig", "tslint", "styleguide"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/palmerhq/typescript/issues"

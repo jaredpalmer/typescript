@@ -3,13 +3,13 @@
 ## Usage
 
 ```bash
-npm install @palmerhq/tslint-config --save-dev
+yarn add tslint-config-palmerhq --dev
 ```
 
 Then in your project's `tslint.json`:
 
 ```json
 {
-  "extends": "@palmerhq/tslint-config"
+  "extends": "tslint-config-palmerhq"
 }
 ```
