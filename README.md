@@ -11,7 +11,27 @@ There are 2 packages of interest.
 
 # Coding Guidelines
 
-These guidelines are augmented from the TypeScript core's coding guidelines.
+These guidelines are adapted from the TypeScript core's contributor coding guidelines.
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Names](#names)
+- [Exports](#exports)
+- [Components](#components)
+- [Types](#types)
+- [`null` and `undefined`](#null-and-undefined)
+- [General Assumptions](#general-assumptions)
+- [Flags](#flags)
+- [Comments](#comments)
+- [Strings](#strings)
+- [When to use `any`](#when-to-use-any)
+- [Diagnostic Messages](#diagnostic-messages)
+- [General Constructs](#general-constructs)
+- [Style](#style)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Names
 
