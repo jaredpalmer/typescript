@@ -49,9 +49,6 @@ These guidelines are augmented from the TypeScript core's coding guidelines.
 1. Consider objects like Nodes, Symbols, etc. as immutable outside the component that created them. Do not change them.
 2. Consider arrays as immutable by default after creation.
 
-## Classes
-1. For consistency, do not use classes in the core compiler pipeline. Use function closures instead.
-	
 ## Flags
 1. More than 2 related Boolean properties on a type should be turned into a flag.
 
