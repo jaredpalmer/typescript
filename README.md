@@ -74,10 +74,11 @@ These guidelines are adapted from the TypeScript core's contributor coding guide
 
 ## Comments
 1. Use JSDoc style comments for functions, interfaces, enums, and classes.
-2. Document crazy stuff
+2. Document crazy stuff. Always add `@see <url>` and the current date when referencing external resources, blog posts, tweets, snippets, gists, issues etc. 
+3. Make note conditions upon which hacks and smelly code can be removed.
 
 ## Strings
-1. Use double quotes for strings.
+1. Use single quotes for strings. Double quotes around JSX string props.
 2. All strings visible to the user need to be localized (make an entry in diagnosticMessages.json).
 
 ## When to use `any`
