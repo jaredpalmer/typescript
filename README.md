@@ -32,10 +32,9 @@ These guidelines are augmented from the TypeScript core's coding guidelines.
 ## Components 
 
 1. 1 file per logical component (e.g. parser, scanner, emitter, checker).
-2. Do not add new files. :)
-3. If not kept in a separate folder, files with ".generated.*" suffix are auto-generated, do not hand-edit them.
-4. Tests should be kept in the same directory with ".test.*" suffix
-5. Filename should match the component name. Interfaces for React components should be called `<ComponentName>Props` and `<ComponentName>State`. The only exception is when writing a render prop. In this situation, you, the author, should call the interface for your component's props `<ComponentName>Config` and then the render prop interface `<ComponenName>Props` so it is easy for everyone else to use. 
+2. If not kept in a separate folder, files with ".generated.*" suffix are auto-generated, do not hand-edit them.
+3. Tests should be kept in the same directory with ".test.*" suffix
+4. Filename should match the component name. Interfaces for React components should be called `<ComponentName>Props` and `<ComponentName>State`. The only exception is when writing a render prop. In this situation, you, the author, should call the interface for your component's props `<ComponentName>Config` and then the render prop interface `<ComponenName>Props` so it is easy for everyone else to use. 
 
 ## Types
 1. Do not export types/functions unless you need to share it across multiple components.
