@@ -104,6 +104,7 @@ For a variety of reasons, we avoid certain constructs, and use some of our own. 
 
 ## Style
 
+0. Use prettier and tslint.
 1. Use arrow functions over anonymous function expressions.
 2. Only surround arrow function parameters when necessary. <br />For example, `(x) => x + x` is wrong but the following are correct:
    1. `x => x + x`
@@ -116,6 +117,4 @@ For a variety of reasons, we avoid certain constructs, and use some of our own. 
    2. `if (x < 10) { }`
    3. `function f(x: number, y: string): void { }`
 6. Use a single declaration per variable statement <br />(i.e. use `var x = 1; var y = 2;` over `var x = 1, y = 2;`).
-7. `else` goes on a separate line from the closing curly brace.
-8. Use 2 spaces per indentation.
-9. Use prettier and tslint.
+7. Use 2 spaces per indentation.
