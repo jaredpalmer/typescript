@@ -41,3 +41,7 @@ Then in your project's `tsconfig.json`:
   }
 }
 ```
+
+---
+
+MIT License

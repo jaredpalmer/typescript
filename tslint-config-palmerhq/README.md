@@ -13,3 +13,7 @@ Then in your project's `tslint.json`:
   "extends": "tslint-config-palmerhq"
 }
 ```
+
+---
+
+MIT License
