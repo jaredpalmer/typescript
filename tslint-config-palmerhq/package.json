@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-palmerhq",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "The Palmer Group shared base tslint config.",
   "main": "index.js",
   "author": "Jared Palmer <jared@palmer.net>",
