@@ -49,7 +49,7 @@ These guidelines are adapted from the TypeScript core's contributor coding guide
 
 ## Exports
 
-1.  Only use named exports. The only exception is the component is being code-split.
+1.  Only use named exports. The only exceptions are a tool requires default exports (e.g `React.lazy()`, Gatsby and Next.js `pages`, `typography.js`)
 
 ## Components
 
@@ -63,7 +63,7 @@ These guidelines are adapted from the TypeScript core's contributor coding guide
 1.  Do not export types/functions unless you need to share it across multiple components.
 2.  Do not introduce new types/values to the global namespace.
 3.  Shared types should be defined in 'types.ts'.
-4.  Within a file, type definitions should come first.
+4.  Within a file, type definitions should come first (after the imports).
 
 ## `null` and `undefined`
 
@@ -81,7 +81,7 @@ These guidelines are adapted from the TypeScript core's contributor coding guide
 ## Comments
 
 1.  Use JSDoc style comments for functions, interfaces, enums, and classes.
-2.  Document crazy stuff. Always add `@see <url>` and the current date when referencing external resources, blog posts, tweets, snippets, gists, issues etc.
+2.  **Document crazy stuff.** Always add `@see <url>` and the current date when referencing external resources, blog posts, tweets, snippets, gists, issues etc.
 3.  Make note conditions upon which hacks and smelly code can be removed.
 
 ## Strings
@@ -113,7 +113,7 @@ For a variety of reasons, we avoid certain constructs, and use some of our own. 
 
 ## Style
 
-0.  Use prettier and tslint.
+0.  Use prettier and tslint/eslint.
 1.  Use arrow functions over anonymous function expressions.
 1.  Only surround arrow function parameters when necessary. <br />For example, `(x) => x + x` is wrong but the following are correct:
     1.  `x => x + x`
@@ -127,6 +127,8 @@ For a variety of reasons, we avoid certain constructs, and use some of our own. 
     3.  `function f(x: number, y: string): void { }`
 1.  Use a single declaration per variable statement <br />(i.e. use `var x = 1; var y = 2;` over `var x = 1, y = 2;`).
 1.  Use 2 spaces per indentation.
+
+
 
 ---
 
