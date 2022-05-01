@@ -80,9 +80,11 @@ These guidelines are adapted from the TypeScript core's contributor coding guide
 
 ## When to use `any`
 
-1.  If something takes you longer than 10 minutes to type or you feel the need to read through TS Advanced Types docs, you should take a step back and ask for help, or use `any`.
+
+1.  If something takes you longer than 10 minutes to type or you feel the need to read through TS Advanced Types docs, you should take a step back and ask for help, or use `unknown`.
 2.  Custom typings of 3rd-party modules should be added to a `.d.ts` file in a `typings` directory. Document the date and version of the module you are typing at the top of the file.
 3.  Consider rewriting tiny modules in typescript if types are too hard to think through.
+4.  Use `unknown`
 
 ## Diagnostic Messages
 
