@@ -97,8 +97,7 @@ These guidelines are adapted from the TypeScript core's contributor coding guide
 
 For a variety of reasons, we avoid certain constructs, and use some of our own. Among them:
 
-1.  Do not use `for..in` statements; instead, use `ts.forEach`, `ts.forEachKey` and `ts.forEachValue`. Be aware of their slightly different semantics.
-2.  Try to use `ts.forEach`, `ts.map`, and `ts.filter` instead of loops when it is not strongly inconvenient.
+1.  Prefer `for..in` loops over `.reduce` if it makes the code clearer or if you think you may need to do async work since you can `await` inside of it.
 
 ## Style
 
